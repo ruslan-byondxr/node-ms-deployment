@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         # modify the following line with your Docker Hub account name
-        - image: index.docker.io/ruslanbyondxr/svc-user:latest
+        - image: index.docker.io/ruslanbyondxr/svc-user
           name: svc-user
           imagePullPolicy: Always
           ports:
