@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         # modify the following line with your Docker Hub account name
-        - image: index.docker.io/ruslanbyondxr/svc-cart:latest
+        - image: index.docker.io/ruslanbyondxr/svc-cart
           name: svc-cart
           imagePullPolicy: Always
           ports:
