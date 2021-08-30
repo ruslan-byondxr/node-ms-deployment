@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Kustomization
+
+namePrefix: kustomize-
+
+resources:
+  - deployment.yaml
+  - service.yaml
