@@ -6,6 +6,3 @@ namePrefix: kustomize-
 resources:
 - deployment.yaml
 - service.yaml
-images:
-- name: index.docker.io/ruslanbyondxr/svc-products
-  newTag: 1.2.1
