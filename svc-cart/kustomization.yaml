@@ -8,4 +8,8 @@ resources:
 - service.yaml
 images:
 - name: index.docker.io/ruslanbyondxr/svc-cart
-  newTag: ac9796c
+  newTag: 904a622
+- name: index.docker.io/ruslanbyondxr/svc-products
+  newTag: 904a622
+- name: index.docker.io/ruslanbyondxr/svc-user
+  newTag: 904a622
