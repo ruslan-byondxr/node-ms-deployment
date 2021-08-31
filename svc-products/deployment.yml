@@ -22,6 +22,6 @@ spec:
       containers:
         - image: index.docker.io/ruslanbyondxr/svc-products:b41c631
           name: svc-products
-          imagePullPolicy: Always
+          imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 3333
