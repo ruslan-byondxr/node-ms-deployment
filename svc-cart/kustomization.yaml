@@ -6,3 +6,6 @@ namePrefix: kustomize-
 resources:
 - deployment.yaml
 - service.yaml
+images:
+- name: index.docker.io/ruslanbyondxr/svc-cart
+  newTag: ac9796c
