@@ -6,3 +6,10 @@ namePrefix: kustomize-
 resources:
 - deployment.yaml
 - service.yaml
+images:
+- name: index.docker.io/ruslanbyondxr/svc-cart
+  newTag: 15e7c7e
+- name: index.docker.io/ruslanbyondxr/svc-products
+  newTag: 15e7c7e
+- name: index.docker.io/ruslanbyondxr/svc-user
+  newTag: 15e7c7e
